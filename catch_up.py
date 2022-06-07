@@ -19,7 +19,7 @@ sprite1 = os.path.join(os.path.abspath(__file__ + "/.."), "sprite1.png")
 sprite1 = pygame.transform.scale(pygame.image.load(sprite1), (100,100))
 sprite2 = os.path.join(os.path.abspath(__file__ + "/.."), "sprite2.png")
 sprite2 = pygame.transform.scale(pygame.image.load(sprite2), (100,100))
-
+#основний цикл гри
 game = True
 while game :
     window.blit(back, (0,0))
